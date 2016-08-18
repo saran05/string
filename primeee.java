@@ -1,0 +1,21 @@
+ for(i=10;i<=99;i++)
+        {
+            for(j=2;j<i;j++)
+            {
+             if(i%j==0)
+                 break;
+            }if(i==j){
+                a[k]=i;
+                k++;
+        }}
+        for(i=0;i<k;i++)
+        {
+            for(j=i+1;j<k;j++)
+            {
+                sum=a[i]+a[j];
+                if(sum==n)
+                {
+                    System.out.println(+a[i]+" "+a[j]);
+                }
+            }
+        }    
